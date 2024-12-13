@@ -1,14 +1,11 @@
+using System.Text.Json;
 using Azure.Storage.Blobs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 using SelectPdf;
-using System;
-using System.IO;
-using System.Text.Json;
-using System.Threading.Tasks;
-
+ 
 namespace MMP_Digiteam_Azure_functions
 {
     public class SplitPdfs
